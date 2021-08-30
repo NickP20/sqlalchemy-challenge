@@ -103,7 +103,7 @@ def tob():
     return jsonify(tobs_results)
 
 @app.route("/api/v1.0/<start>")
-def start(start):
+def start(start= None):
     session = Session(engine)
 
     results = session.query(func.min(Measurement.tobs),func.avg(Measurement.tobs), func.max(Measurement.tobs)).filter(Measurement.date >= start).all()
