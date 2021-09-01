@@ -17,7 +17,7 @@ The following analysis was completed completed using SQLAlchemy ORM queries, Pan
 * I then plotted the results using the`plot` method.
 * Finally the summary statistics for the precipitation data was found.
 
-  ![precipitation](Images/precipitation.png)
+  ![precipitation](images/prcp_bar.png)
 
 
 ### Station Analysis
@@ -30,7 +30,7 @@ The following analysis was completed completed using SQLAlchemy ORM queries, Pan
 * An additional query to retrieve the last 12 months of temperature observation data was created.
   * The last 12 months of temperature data was found for the station with the highest number of observations and plotted to a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
+    ![station-histogram](images/tobs_hist.png)
 
 - - -
 
@@ -86,7 +86,7 @@ I Designed a Flask API based on the queries that were utilized for initial analy
 
 * A bar chart was then utilized to plot the min, avg, and max temperature.
 
-    ![temperature](Images/temperature.png)
+    ![temperature](images/avg_temp_yerr.png)
 
 ### Daily Rainfall Average
 
@@ -98,5 +98,5 @@ I Designed a Flask API based on the queries that were utilized for initial analy
 * I then calculate the daily normals for the min, avg, and max temperatures of my trip, with the function `daily_normals`.
 * The list was then loaded into a a Pandas DataFrame and an area plot for the daily normals was created. 
 
-  ![daily-normals](Images/daily-normals.png)
+  ![daily-normals](images/norms_area.png)
 
