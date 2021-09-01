@@ -1,7 +1,5 @@
 # Climate Analysis for Honolulu
 <hr>
-![surfs-up.png](Images/surfs-up.png)
-<hr>
 The following project utilizes Python and SQLAlchemy to complete climate analysis and data exploration on the climate database for Hawaii.
 A Flask API was then designed using the intitial analysis. 
 
